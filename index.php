@@ -103,7 +103,7 @@ border-bottom: 5px solid #9f0f13;}
    
     <div class="Envelop">
     	
-        <p class="TextAlignCent Txt02 space40"><a href="#" target="_self" class="blueLink">Sign up</a> here and be <strong>Rewarded by being the first in the know</strong></p>
+        <p class="TextAlignCent Txt02 space40"><a href="#" target="_self" class="blueLink">Sign up</a> here and <strong>get unlimited download access!</strong></p>
 
     <form name="signup" id="signup" action="index.php" method="post">
     	<div id="html_element">
