@@ -1,0 +1,84 @@
+img { 
+	/*behavior: url(iepngfix.htc); */
+}
+.instructions {
+	width: 430px;
+	padding: 5px 10px;
+	color: #FFFFFF;
+}
+.captchaWrapper {
+	background: url('images/bwm-captcha2.png') 0 -96px no-repeat;
+	position: relative;
+	width: 200px;
+	height: 53px;
+	border:solid 1px #009;
+	margin:10px auto auto auto;
+}
+a.captchaRefresh:link, a.captchaRefresh:visited, a.captchaRefresh:active {
+    background: url("images/bwm-captcha2.png") no-repeat scroll -123px -78px transparent;
+    display: block;
+    height: 8px;
+    left: 8px;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+a.captchaRefresh:hover {
+	background: url('images/bwm-captcha2.png') -123px -86px no-repeat;
+	width: 40px;
+	height: 8px;
+	position: absolute;
+	top: 0;
+	left: 8px;
+	display: block;
+}
+.targetWrapper {
+    height: 53px;
+    left: 136px;
+    position: absolute;
+    /*top: 7px;*/
+    width: 61px;
+	border-left:solid 1px #009;
+}
+.captchaFail {
+	background: url('images/bwm-captcha22.png') 0 -55px no-repeat;
+	width: 63px;
+	background-color:#F00;
+	height:53px;
+	display: block;	
+}
+.captchaSuccess {
+	background: url('images/bwm-captcha22.png') -61px -55px no-repeat;
+	width: 63px;
+	background-color:#060;
+	height:53px;
+	display: block;
+}
+.target {
+	background: url('images/bwm-captcha2.png');
+	width: 27px; 
+	height: 27px; 
+	margin: 12px auto 0 auto;
+}
+.draggable {
+	background: url('images/bwm-captcha2.png');
+	position: absolute;
+	/*z-index: 10000;*/
+	width: 27px;
+	height: 27px;
+	top: 14px; 
+	cursor: move;
+}
+
+/************************* category span images *********** */
+#main #main-sidebar .item .category li a span {
+    padding-left: 23px;
+    height: auto;
+    line-height: 18px;
+    display: block;
+}
+.category li span {
+    background-position: 0px center;
+    background-repeat: no-repeat;
+}
+/********* end category span images *********/
